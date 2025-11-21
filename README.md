@@ -10,7 +10,7 @@ The model uses an **XGBoost Regressor** trained on 3 years of data (2022-2024) a
 
 ## 🛠️ Project Structure
 - `main.py`: The end-to-end pipeline script. It handles:
-  1.  **Data Scraping:** Downloads hourly weather data from NOAA.
+  1.  **Data Scraping:** Downloads hourly weather data from NOAA (BTS data must be downloaded manually).
   2.  **Preprocessing:** Cleans weather data and aggregates flight data.
   3.  **Feature Engineering:** Creates lag features, rolling averages, and time cycles.
   4.  **Modeling:** Trains and evaluates the XGBoost model.
